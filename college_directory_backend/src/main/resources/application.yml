@@ -1,0 +1,11 @@
+spring:
+  cors:
+    allowed-origins: http://localhost:3000
+    allowed-methods: GET, POST, PUT, DELETE, OPTIONS
+    allowed-headers: "*"
+    allow-credentials: true
+
+server:
+  port: 8080
+
+# Other configurations for your application can go here
